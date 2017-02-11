@@ -31,6 +31,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	Helped me to see how branches are carried around with the last commit (tip of the branch),
+	how a commit can be unreachable and how to preserve it or save it from being lost by 
+	creating a new branch using 'git checkout -b <new branch name>'
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 

@@ -24,3 +24,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branches provide a way of keeping a log of a series of commits, enabling commits comparison and also
 	allowing to go 'back in time' to investigate bugs or reverting changes. With branches it's also possible
 	to unify changes done in another branch and uploading (pushing) changes to a remote repository, this is particularly helpful for collaboration.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	This way, if you are offline, you can diff with the last known state of the remote or if you have finished working on some feature you can also merge your changes and resolve any conflict that might arise. Then, whenever you are online again, you can push your changes to the remote or repeat the process with less changes if there are more changes that need to be merged on the remote.

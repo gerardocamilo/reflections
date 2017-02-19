@@ -32,3 +32,8 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	You might collaborate using Dropbox for example, keeping the repo and local on sync would be easier but resolving conflicts would be harder. Also, SVN is similar to Git, they're pretty similar but Git doesn't need internet connection to make commits and diffs.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	You want to work in a separate branch when working on a new feature or bug and more importantly, when collaborating with others. This way you can have code reviews, get feedback on your new creations, etc. A good example of collaboration is when contributing to Open Source projects, when you want to add a feature or fix a bug, you have to create a Pull Request so your changes are evaluated by the project' admins and they can approve your changes or provide feedback on it.
+
